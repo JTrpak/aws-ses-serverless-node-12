@@ -1,4 +1,13 @@
 {
-  "plugins": ["transform-runtime"],
-  "presets": ["es2015"]
-}
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "12.13.0"
+          }
+        }
+      ]
+    ]
+  }
+  

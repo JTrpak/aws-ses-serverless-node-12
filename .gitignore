@@ -11,3 +11,5 @@ config.json
 
 # unwanted
 react-contactform
+/.webpack/*
+/.vscode/launch.json
